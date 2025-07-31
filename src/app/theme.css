@@ -1,0 +1,28 @@
+:root {
+  --navbar-bg: #ffffff;
+  --navbar-text: #222222;
+  --navbar-hover: #2563eb;
+  --navbar-border: #cccccc;
+  --navbar-hover-bg: rgba(37, 99, 235, 0.1);
+  --background: #f9f9f9;
+  --text-color: #222222;
+}
+
+[data-theme="dark"] {
+  --navbar-bg: #242222;
+  --navbar-text: #ffffff;
+  --navbar-hover: #2563eb;
+  --navbar-border: #444444;
+  --navbar-hover-bg: rgba(37, 99, 235, 0.3);
+  --background: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0;
+  padding-top: 60px; 
+  font-family: Arial, sans-serif;
+}
